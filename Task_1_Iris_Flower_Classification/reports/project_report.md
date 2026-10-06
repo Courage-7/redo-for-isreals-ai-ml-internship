@@ -9,7 +9,7 @@
 ### 1. Executive Summary
 This report presents an end-to-end machine learning solution for classifying Iris flowers into three distinct species (*Setosa*, *Versicolor*, and *Virginica*) based on sepal and petal morphology. Utilizing live remote ingestion from the official UCI Machine Learning Repository via `ucimlrepo`, we performed extensive exploratory data analysis, built a leakage-free preprocessing pipeline, and systematically benchmarked multiple classification algorithms cited in the project specification (Logistic Regression, K-Nearest Neighbors, Decision Trees, and Random Forests). 
 
-The models achieved up to 96.67% test accuracy with 5-fold cross-validated stability. The best-performing pipeline was fully serialized for production inference.
+The models achieved up to 96.67% test accuracy with 5-fold cross-validated stability. The best-performing pipeline was fully serialized for inference.
 
 ### 2. Dataset Exploration & Preprocessing
 
@@ -74,4 +74,4 @@ The end-to-end pipeline was saved to `models/iris_pipeline.joblib`. Test loading
 * Input `[6.8, 3.2, 5.9, 2.3]` $\rightarrow$ **Virginica** (98.4% confidence)
 
 ### 6. Conclusion
-The objective outlined in the project instructions has been completed with comprehensive visual exploration, rigorous multi-model comparison, and an exported production pipeline.
+The objective outlined in the project instructions has been completed with comprehensive visual exploration, rigorous multi-model comparison, and an exported model pipeline.
