@@ -78,7 +78,7 @@ Examining the few misclassified messages reveals actionable insights:
 1. False Positives (Ham flagged as Spam): Messages containing words like `free`, `credit`, or `gift` in legitimate contexts (e.g., *"I have extra credit for our project"*).
 2. False Negatives (Spam flagged as Ham): Very short spam messages lacking overt commercial vocabulary (e.g., *"Call me at 078..."*).
 
-### 6. Production Deployment & API
+### 6. Model Pipeline and Inference
 
 The full pipeline (`TfidfVectorizer` + `Classifier`) was serialized to `models/spam_pipeline.joblib`.
 
@@ -92,4 +92,4 @@ The full pipeline (`TfidfVectorizer` + `Classifier`) was serialized to `models/s
 ```
 
 ### 7. Conclusion
-Both required algorithms from the project syllabus (Naive Bayes and Logistic Regression), along with Linear SVC, were implemented and benchmarked. The model achieves industry-level spam precision (>97%), preventing false alarms on legitimate emails while neutralizing over 95% of spam intrusions.
+Both required algorithms from the project syllabus (Naive Bayes and Logistic Regression), along with Linear SVC, were implemented and benchmarked. The model achieves high spam precision, preventing false alarms on legitimate messages while detecting spam effectively.
