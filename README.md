@@ -1,6 +1,6 @@
 # Redo for Isreal's AI/ML Internship
 
-This repository provides the complete, production grade implementations of two applied machine learning tasks for the AI and Machine Learning internship program. Both solutions have been re engineered from the ground up to follow strict modular architecture, automated remote data ingestion, leak free preprocessing pipelines, comprehensive model benchmarks, and serialized deployment artifacts.
+This repository provides the complete, implementations of two applied machine learning tasks for the AI and Machine Learning internship program. Both solutions have been re engineered from the ground up to follow strict modular architecture, automated remote data ingestion, leak free preprocessing pipelines, comprehensive model benchmarks, and serialized deployment artifacts.
 
 ### Repository Architecture
 
